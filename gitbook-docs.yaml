@@ -1,0 +1,18 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: AppA3
+  structure:
+    - type: space
+      key: space-1
+      title: Docs
+      path: docs
+      content:
+        directory: ./docs
+        language: pt
+    - type: space
+      key: space-2
+      title: Documentação do projeto
+      path: documentacao
+      default: true
+      content:
+        directory: ./documentacao
